@@ -74,7 +74,7 @@ Kolkata, West Bengal
 
 ## 📷 Screenshot Gallery
 
-*(Please replace these placeholders with actual screenshots of your application)*
+
 
 <div align="center">
   <img src="/api/placeholder/800/450" alt="ParkEase Homepage" width="800"/>
@@ -99,6 +99,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
+
 <div align="center">
-  <p>Developed as part of academic curriculum at Bengal Institute of Technology, 2023</p>
+  <p>Developed as part of academic curriculum at Bengal Institute of Technology, 2025</p>
 </div>
