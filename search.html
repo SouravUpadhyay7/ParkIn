@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Parking - ParkNet</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+    <!-- Navigation (same as index.html) -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="index.html">ParkNet</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="search.html" class="active">Find Parking</a></li>
+            <li><a href="list-space.html">List Your Space</a></li>
+            <li><a href="bookings.html">My Bookings</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><button class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button></li>
+        </ul>
+    </nav>
+
+    <!-- Search Section -->
+    <main class="search-container">
+        <!-- Search Filters -->
+        <aside class="search-filters">
+            <h2>Find Parking</h2>
+            <form id="search-form">
+                <div class="form-group">
+                    <label for="location">Location</label>
+                    <input type="text" id="location" placeholder="Enter location">
+                </div>
+                
+                <div class="form-group">
+                    <label>Date & Time</label>
+                    <div class="datetime-inputs">
+                        <input type="date" id="date">
+                        <input type="time" id="time">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Duration</label>
+                    <select id="duration">
+                        <option value="1">1 hour</option>
+                        <option value="2">2 hours</option>
+                        <option value="4">4 hours</option>
+                        <option value="8">8 hours</option>
+                        <option value="24">24 hours</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Facilities</label>
+                    <div class="checkbox-group">
+                        <label>
+                            <input type="checkbox" value="ev-charging">
+                            EV Charging
+                        </label>
+                        <label>
+                            <input type="checkbox" value="cctv">
+                            CCTV
+                        </label>
+                        <label>
+                            <input type="checkbox" value="covered">
+                            Covered Parking
+                        </label>
+                        <label>
+                            <input type="checkbox" value="security">
+                            24/7 Security
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Price Range</label>
+                    <div class="price-range">
+                        <input type="range" id="price-range" min="0" max="100" step="5">
+                        <span id="price-display">$0 - $100</span>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+        </aside>
+
+        <!-- Map and Results -->
+        <div class="search-results">
+            <div id="map"></div>
+            <div class="results-list">
+                <!-- Results will be dynamically populated -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>ParkNet</h3>
+                <p>Decentralized parking solutions for everyone</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="search.html">Find Parking</a></li>
+                    <li><a href="list-space.html">List Your Space</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ParkNet. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html> 
