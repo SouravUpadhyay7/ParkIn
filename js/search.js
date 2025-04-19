@@ -8,33 +8,33 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 const mockParkingSpaces = [
     {
         id: 1,
-        name: "Central Parking Garage",
-        address: "123 Main St, City Center",
+        name: "Esplanade Parking Complex",
+        address: "5 Jawaharlal Nehru Road, Esplanade, Kolkata 700013",
         lat: 51.505,
         lng: -0.09,
-        price: 15,
+        price: 30,
         rating: 4.5,
         facilities: ["EV Charging", "CCTV", "24/7 Security"],
         image: "https://images.unsplash.com/photo-1590674899484-d5640e854abe?w=800&auto=format&fit=crop&q=60"
     },
     {
         id: 2,
-        name: "Secure Park Plus",
-        address: "456 Park Avenue, Downtown",
+        name: "Park Street Underground Parking",
+        address: "42 Park Street, Park Street Area, Kolkata 700016",
         lat: 51.507,
         lng: -0.087,
-        price: 12,
+        price: 50,
         rating: 4.2,
         facilities: ["CCTV", "Covered"],
         image: "https://images.unsplash.com/photo-1573348722427-f1d6819fdf98?w=800&auto=format&fit=crop&q=60"
     },
     {
         id: 3,
-        name: "EV Friendly Parking",
-        address: "789 Electric Drive",
+        name: "South City Mall Parking",
+        address: "375 Prince Anwar Shah Road, South Kolkata 700068",
         lat: 51.503,
         lng: -0.093,
-        price: 18,
+        price: 70,
         rating: 4.8,
         facilities: ["EV Charging", "CCTV", "Covered", "24/7 Security"],
         image: "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?w=800&auto=format&fit=crop&q=60"
@@ -49,7 +49,7 @@ const resultsList = document.querySelector('.results-list');
 
 // Update price display
 priceRange.addEventListener('input', (e) => {
-    priceDisplay.textContent = `$0 - $${e.target.value}`;
+    priceDisplay.textContent = `₹0 - ₹${e.target.value}`;
 });
 
 // Handle form submission
@@ -108,7 +108,7 @@ function displayResults(spaces) {
                 </div>
             </div>
             <div class="parking-space-price">
-                <div class="price">$${space.price}/hr</div>
+                <div class="price">₹${space.price}/hr</div>
                 <button class="btn btn-primary" onclick="bookSpace(${space.id})">Book Now</button>
             </div>
         </div>
@@ -145,7 +145,7 @@ function updateMap(spaces) {
 // Book parking space
 function bookSpace(spaceId) {
     // In a real app, this would navigate to a booking page or open a modal
-    alert(`Booking space ${spaceId}. This would open a booking form in a real application.`);
+    alert(`Booking space ${spaceId}. Booking Confirmed .`);
 }
 
 // Initialize the search on page load

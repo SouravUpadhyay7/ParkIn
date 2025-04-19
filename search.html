@@ -3,17 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find Parking - ParkNet</title>
+    <title>Find Parking - ParkIn</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/search.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Iceland&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nova+Square&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Yatra+One&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Iceland&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nova+Square&family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Yatra+One&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Iceland&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nova+Square&family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Yatra+One&display=swap');
+    </style>
 </head>
 <body>
     <!-- Navigation (same as index.html) -->
     <nav class="navbar">
         <div class="nav-brand">
-            <a href="index.html">ParkNet</a>
+            <a href="index.html"><span class="brand-font">ParkIn</span></a>
         </div>
         <div class="hamburger">
             <span></span>
@@ -40,7 +49,19 @@
             <form id="search-form">
                 <div class="form-group">
                     <label for="location">Location</label>
-                    <input type="text" id="location" placeholder="Enter location">
+                    <select id="location" class="form-control">
+                        <option value="">-- Select Location --</option>
+                        <option value="esplanade">Esplanade Parking Complex</option>
+                        <option value="park-street">Park Street Underground Parking</option>
+                        <option value="south-city">South City Mall Parking</option>
+                        <option value="salt-lake">City Centre Salt Lake Parking</option>
+                        <option value="howrah">Howrah Station Parking Zone</option>
+                        <option value="eco-park">New Town Eco Park Parking</option>
+                        <option value="science-city">Science City Parking Complex</option>
+                        <option value="college-street">College Street Parking Hub</option>
+                        <option value="gariahat">Gariahat Market Parking</option>
+                        <option value="rajarhat">Rajarhat Central Parking</option>
+                    </select>
                 </div>
                 
                 <div class="form-group">
@@ -88,7 +109,7 @@
                     <label>Price Range</label>
                     <div class="price-range">
                         <input type="range" id="price-range" min="0" max="100" step="5">
-                        <span id="price-display">$0 - $100</span>
+                        <span id="price-display">₹0 - ₹100</span>
                     </div>
                 </div>
 
@@ -109,7 +130,7 @@
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-section">
-                <h3>ParkNet</h3>
+                <h2 class="footer-brand"><span>ParkIn</span></h2>
                 <p>Decentralized parking solutions for everyone</p>
             </div>
             <div class="footer-section">
@@ -132,7 +153,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 ParkNet. All rights reserved.</p>
+            <p>&copy; 2025 ParkIn. All rights reserved.</p>
         </div>
     </footer>
 

@@ -1,3 +1,18 @@
+
+.brand-font{
+    font-family: "Nova Square", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer-brand {
+    font-family: "Nova Square", sans-serif;
+    /* You can add other styles if needed */
+    font-weight: 400;
+}
+
+
+
 /* Search Page Layout */
 .search-container {
     display: grid;

@@ -3,11 +3,11 @@ const mockBookings = {
     active: [
         {
             id: 1,
-            spaceName: "Central Parking Garage",
-            address: "123 Main St, City Center",
-            startTime: "2024-02-20T10:00:00",
-            endTime: "2024-02-20T18:00:00",
-            price: 15,
+            spaceName: "Esplanade Parking Complex",
+            address: "5 Jawaharlal Nehru Road, Esplanade, Kolkata 700013",
+            startTime: "2025-02-20T10:00:00",
+            endTime: "2025-02-20T18:00:00",
+            price: 40,
             status: "active",
             spaceImage: "https://images.unsplash.com/photo-1590674899484-d5640e854abe?w=800&auto=format&fit=crop&q=60"
         }
