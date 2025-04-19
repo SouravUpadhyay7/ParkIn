@@ -3,16 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ParkNet - Smart Parking Solutions</title>
+    <title>ParkIn - Smart Parking Solutions</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Iceland&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nova+Square&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Yatra+One&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Iceland&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nova+Square&family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Yatra+One&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Iceland&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nova+Square&family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Yatra+One&display=swap');
+    </style>
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-brand">
-            <a href="index.html">ParkNet</a>
+            <a href="index.html"><span class="parknet-font">ParkIn</span></a>
+
         </div>
         <div class="hamburger">
             <span></span>
@@ -34,7 +44,7 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h1>Find Your Perfect Parking Spot</h1>
+            <h1>Find Your <span>Perfect</span> Parking Spot</h1>
             <p>Discover convenient parking spaces near you with our decentralized parking platform</p>
             <div class="hero-buttons">
                 <a href="search.html" class="btn btn-primary">Find Parking</a>
@@ -47,7 +57,7 @@
     <section class="ai-features">
         <div class="ai-content">
             <div class="ai-header">
-                <h2>AI-Powered Smart Parking</h2>
+                <h2>AI-Powered <span>Smart</span> Parking</h2>
                 <p>Drive with confidence using our intelligent parking assistance system</p>
             </div>
             <div class="ai-grid">
@@ -86,7 +96,7 @@
                     <a href="search.html" class="btn btn-primary">Try Smart Parking</a>
                 </div>
                 <div class="highlight-image">
-                    <img src="https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=800&auto=format&fit=crop&q=60" alt="AI Parking Analysis">
+                    <img src="https://images.unsplash.com/photo-1662021163989-f0d185a5442d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyJTIwcGFya2luZyUyMGluZGlhfGVufDB8fDB8fHww" alt="AI Parking Analysis">
                 </div>
             </div>
         </div>
@@ -190,7 +200,7 @@
                         <div class="info-tooltip">Occupied - Next available in 30min</div>
                         
                         <div class="parking-spot available"></div>
-                        <div class="info-tooltip">Available - $2/hour</div>
+                        <div class="info-tooltip">Available - Rs.70/hour</div>
                         
                         <div class="parking-spot selected"></div>
                         <div class="info-tooltip">Best Match - 2min walk to destination</div>
@@ -216,7 +226,11 @@
     <section class="ai-assistant">
         <div class="assistant-container">
             <div class="assistant-content">
-                <h2>Meet ParkBot - Your AI Parking Assistant</h2>
+                
+                <h2 class="bot-title">
+                    <span class="bot-name">ParkMate</span> - Your AI Parking Assistant
+                </h2>
+                
                 <p>Experience seamless parking with our intelligent AI assistant</p>
                 
                 <div class="assistant-features">
@@ -245,7 +259,7 @@
                                 <p>I've found 3 spots that match your preferences, including your favorite covered parking area. Would you like to see them?</p>
                             </div>
                         </div>
-                        <button class="btn btn-primary">Try ParkBot Now</button>
+                        <button class="btn btn-primary">Try ParkMate Now</button>
                     </div>
                 </div>
             </div>
@@ -268,7 +282,7 @@
                             <i class="fas fa-microphone"></i>
                         </div>
                         <div class="voice-text">
-                            "Hey ParkNet, find me parking near Central Station"
+                            "Hey ParkMate, find me parking near Central Station"
                         </div>
                     </div>
 
@@ -329,7 +343,8 @@
 
     <!-- Features Section -->
     <section class="features">
-        <h2>Why Choose ParkNet?</h2>
+        <h2>Why Choose <span class="bot-name">ParkIn</span> ?</h2>
+
         <div class="features-grid">
             <div class="feature-card">
                 <i class="fas fa-map-marker-alt"></i>
@@ -379,15 +394,17 @@
     <!-- Local Parking Section -->
     <section class="local-parking">
         <div class="local-parking-content">
-            <h2>Local Parking Solutions</h2>
+            <h2>Local <span>Parking</span> Solutions</h2>
+
             <p>Join our community of trusted parking space owners</p>
             
             <div class="local-parking-grid">
                 <div class="local-parking-card">
                     <div class="owner-profile">
-                        <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=150&auto=format&fit=crop&q=60" alt="Space Owner">
+                        <img src="images/male.PNG" alt="Space Owner">
+
                         <div class="owner-info">
-                            <h3>John Smith</h3>
+                            <h3>Arindam Chatterjee</h3>
                             <div class="reputation">
                                 <i class="fas fa-star"></i>
                                 <span>4.9</span>
@@ -397,15 +414,16 @@
                         </div>
                     </div>
                     <div class="space-details">
-                        <h4>Private Driveway - City Center</h4>
-                        <p><i class="fas fa-map-marker-alt"></i> Downtown, 2.5 km away</p>
+                        <h4>Private Driveway - Science City Area</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> Science City, Kolkata, 2.5 km away</p>
                         <div class="amenities">
                             <span><i class="fas fa-car"></i> 2 spots</span>
                             <span><i class="fas fa-shield-alt"></i> 24/7 Security</span>
                             <span><i class="fas fa-charging-station"></i> EV Charging</span>
                         </div>
                         <div class="price">
-                            <strong>$5/hour</strong>
+                            <strong>₹40/hour
+                            </strong>
                             <a href="search.html" class="btn btn-secondary">View Details</a>
                         </div>
                     </div>
@@ -413,9 +431,9 @@
 
                 <div class="local-parking-card">
                     <div class="owner-profile">
-                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=60" alt="Space Owner">
+                        <img src="images/female.PNG" alt="Space Owner">
                         <div class="owner-info">
-                            <h3>Sarah Johnson</h3>
+                            <h3>Moumi Ghosh</h3>
                             <div class="reputation">
                                 <i class="fas fa-star"></i>
                                 <span>4.8</span>
@@ -425,15 +443,16 @@
                         </div>
                     </div>
                     <div class="space-details">
-                        <h4>Garage Space - Residential Area</h4>
-                        <p><i class="fas fa-map-marker-alt"></i> Suburbs, 3.8 km away</p>
+                        <h4>Garage Space - Residential Zone</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> New Town, Kolkata, 3.8 km away</p>
                         <div class="amenities">
                             <span><i class="fas fa-car"></i> 1 spot</span>
                             <span><i class="fas fa-video"></i> CCTV</span>
                             <span><i class="fas fa-umbrella"></i> Covered</span>
                         </div>
                         <div class="price">
-                            <strong>$4/hour</strong>
+                            <strong>₹80/hour
+                            </strong>
                             <a href="search.html" class="btn btn-secondary">View Details</a>
                         </div>
                     </div>
@@ -452,7 +471,8 @@
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-section">
-                <h3>ParkNet</h3>
+                <h2><span>ParkIn</span></h2>
+
                 <p>Decentralized parking solutions for everyone</p>
             </div>
             <div class="footer-section">
@@ -477,7 +497,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 ParkNet. All rights reserved.</p>
+            <p>&copy; 2025 ParkIn. All rights reserved.</p>
         </div>
     </footer>
 
@@ -507,7 +527,7 @@
                 </div>
                 <div class="booking-detail">
                     <span>Amount Paid</span>
-                    <strong>$10.00</strong>
+                    <strong>₹40/hour</strong>
                 </div>
             </div>
             <div class="qr-actions">

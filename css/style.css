@@ -27,12 +27,45 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--bg-color);
     transition: var(--transition);
 }
+
+.parknet-font {
+    font-family: "Nova Square", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 span {
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  
+  h1 span {
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  
+
+.bot-title {
+    font-family: "Nova Square", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+}
+
+.bot-name {
+    color:#4CAF50;
+    font-weight: 800;
+}
+
 
 /* Navigation Styles */
 .navbar {

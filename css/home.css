@@ -24,7 +24,7 @@
 }
 
 .hero p {
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     margin-bottom: 2rem;
     animation: fadeInUp 1s ease;
 }
@@ -60,7 +60,7 @@
 
 .ai-header p {
     color: var(--text-muted);
-    font-size: 1.2rem;
+    font-size: 3.2rem;
 }
 
 .ai-grid {
