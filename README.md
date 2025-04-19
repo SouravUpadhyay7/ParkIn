@@ -1,99 +1,105 @@
-A LEARNING PROJECT REPORT ON
-"ParkEase: A Smart Parking Solution for Urban Spaces"
+# ParkEase: A Smart Parking Solution for Urban Spaces
 
-Submitted in partial fulfillment of the requirements for the
-4th Semester Sessional Examination of
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-Bachelor of Technology
-in
-Computer Science & Engineering
-with Specialization on AI & ML
+## 📋 Project Overview
 
-Presented by:
-Abhinav (Roll No: 12130823001)
-GitHub: [GitHub Profile]
-LinkedIn: [LinkedIn Profile]
-X (Twitter): [X Profile]
+**ParkEase** is a decentralized vehicle parking platform designed to provide an easy, efficient, and smart way to find and book urban parking spaces. This prototype caters to both space owners and drivers, providing features that make parking management simple and user-friendly.
 
-Sourav Upadhyay (Roll No: 12130823044)
-GitHub: [GitHub Profile]
-LinkedIn: [LinkedIn Profile]
-X (Twitter): [X Profile]
+> This project was developed as a learning exercise for the 4th Semester Sessional Examination of Bachelor of Technology in Computer Science & Engineering with Specialization on AI & ML.
 
-SK Arin (Roll No: 12130823043)
-GitHub: [GitHub Profile]
-LinkedIn: [LinkedIn Profile]
-X (Twitter): [X Profile]
+## ✨ Key Features
 
-Nishi Kumari (Roll No: 12130824047)
-GitHub: [GitHub Profile]
-LinkedIn: [LinkedIn Profile]
-X (Twitter): [X Profile]
+### Multi-page Structure with Navigation
+- Home page
+- Search Parking functionality
+- My Bookings section
+- User Profile area
 
-Under the Guidance of:
-Prof. Kuntala Das
-LinkedIn: [LinkedIn Profile]
-X (Twitter): [X Profile]
+### Responsive Design
+- Sticky navigation bar for desktop/tablet screens
+- Responsive hamburger menu for mobile users
+- Fully adaptive layout (Mobile, Tablet, Desktop)
 
-Dr. Arpita Chakraborty
-LinkedIn: [LinkedIn Profile]
-X (Twitter): [X Profile]
+### For Space Owners
+- **List parking spaces** (dummy form + upload image UI)
+- **Set hourly pricing**, select facilities (CCTV, EV charging, etc.)
+- **Mark parking space location** on simulated map
+- **Manage bookings** and view offers
 
-Department:
-Department of Computer Science & Engineering (AI & ML)
-Bengal Institute of Technology
-An AICTE approved and MAKAUT affiliated
+### For Drivers/Customers
+- **Search and browse** nearby parking spaces
+- **View detailed information** (mock ratings, facilities, images)
+- **Send booking requests** and proposals
+- **Book slots** using a simple calendar UI
+- **Rate parking spaces** after usage
+
+### Additional Features
+- Light/Dark theme toggle for user preference
+- Well-commented HTML, CSS, and JavaScript files for clarity
+
+> **Note:** This project is a prototype developed for academic purposes only. No real-time backend services, maps APIs, or databases were used.
+
+## 🛠️ Technologies Used
+
+- **HTML5** - Structure
+- **CSS3** - Styling & Animations
+- **Vanilla JavaScript** - Interactivity (No frameworks)
+
+## 👨‍💻 Team Members
+
+| Name | Roll No | Social Links |
+|------|---------|-------------|
+| Abhinav | 12130823001 | [GitHub](#) • [LinkedIn](#) • [X/Twitter](#) |
+| Sourav Upadhyay | 12130823044 | [GitHub](#) • [LinkedIn](#) • [X/Twitter](#) |
+| SK Arin | 12130823043 | [GitHub](#) • [LinkedIn](#) • [X/Twitter](#) |
+| Nishi Kumari | 12130824047 | [GitHub](#) • [LinkedIn](#) • [X/Twitter](#) |
+
+## 👩‍🏫 Project Guides
+
+| Faculty | Department | Social Links |
+|---------|------------|-------------|
+| Prof. Kuntala Das | Dept. of CS&E (AI & ML) | [LinkedIn](#) • [X/Twitter](#) |
+| Dr. Arpita Chakraborty | Dept. of CS&E (AI & ML) | [LinkedIn](#) • [X/Twitter](#) |
+
+## 🏫 Institution
+
+**Bengal Institute of Technology**  
+Department of Computer Science & Engineering (AI & ML)  
+An AICTE approved and MAKAUT affiliated  
 Kolkata, West Bengal
 
-Project Overview: "ParkEase"
-ParkEase is a decentralized vehicle parking platform designed to provide an easy, efficient, and smart way to find and book urban parking spaces. It caters to both space owners and drivers, providing features that make parking management simple and user-friendly.
-
-Key Features Implemented:
-Multi-page structure with navigation (Home, Search Parking, My Bookings, Profile)
-
-Sticky navigation bar for desktop/tablet screens
-
-Responsive Hamburger menu for mobile users
-
-Space Owners can:
-
-List parking spaces (dummy form + upload image UI)
-
-Set hourly pricing, select facilities (CCTV, EV charging, etc.)
-
-Mark parking space location on simulated map
-
-Manage bookings and view offers
-
-Drivers/Customers can:
-
-Search and browse nearby fake parking spaces
-
-View detailed information (mock ratings, facilities, images)
-
-Send booking requests and proposals
-
-Book slots using a simple calendar UI
-
-Rate parking spaces after usage
-
-Fully responsive layout (Mobile, Tablet, Desktop)
-
-Light/Dark theme toggle for user preference
-
-Static pages only — no backend integration (mock/static data used)
-
-Well-commented HTML, CSS, and JavaScript files for clarity
-
-Technologies Used:
-HTML5
-
-CSS3
-
-Vanilla JavaScript (No frameworks)
-
-Note:
-This project is a prototype developed for academic purposes only.
-No real-time backend services, maps APIs, or databases were used.
+## 📷 Screenshot Gallery
 
 
+
+<div align="center">
+  <img src="/api/placeholder/800/450" alt="ParkEase Homepage" width="800"/>
+  <p><em>Home page with key features</em></p>
+  
+  <img src="/api/placeholder/800/450" alt="Parking Search" width="800"/>
+  <p><em>Search interface for finding available spaces</em></p>
+</div>
+
+## 🚀 Getting Started
+
+1. Clone this repository
+```bash
+git clone https://github.com/yourusername/parkease.git
+```
+
+2. Open `index.html` in your browser to explore the application
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+
+<div align="center">
+  <p>Developed as part of academic curriculum at Bengal Institute of Technology, 2025</p>
+</div>
