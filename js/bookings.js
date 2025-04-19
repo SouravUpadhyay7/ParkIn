@@ -15,11 +15,11 @@ const mockBookings = {
     upcoming: [
         {
             id: 2,
-            spaceName: "Secure Park Plus",
-            address: "456 Park Avenue, Downtown",
+            spaceName: "City Centre Salt Lake Parking",
+            address: "DC Block, Sector 1, Salt Lake City, Kolkata 700064",
             startTime: "2024-02-25T09:00:00",
             endTime: "2024-02-25T17:00:00",
-            price: 12,
+            price: 50,
             status: "upcoming",
             spaceImage: "https://images.unsplash.com/photo-1573348722427-f1d6819fdf98?w=800&auto=format&fit=crop&q=60"
         }
@@ -27,11 +27,11 @@ const mockBookings = {
     past: [
         {
             id: 3,
-            spaceName: "EV Friendly Parking",
-            address: "789 Electric Drive",
+            spaceName: "Howrah Station Parking Zone",
+            address: "7Howrah Station Road, Howrah 711101",
             startTime: "2024-02-10T08:00:00",
             endTime: "2024-02-10T16:00:00",
-            price: 18,
+            price: 20,
             status: "completed",
             spaceImage: "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?w=800&auto=format&fit=crop&q=60"
         }
@@ -146,7 +146,7 @@ function loadBookings(tab) {
                 <i class="fas fa-clock"></i>
                 <span>${formatDateTime(booking.startTime)} - ${formatTime(booking.endTime)}</span>
             </div>
-            <div class="booking-price">$${booking.price}/hr</div>
+            <div class="booking-price">₹${booking.price}/hr</div>
         </div>
     `).join('');
 }
@@ -176,7 +176,7 @@ function showBookingDetails(bookingId) {
         </div>
         <div class="detail-group">
             <label>Price</label>
-            <p class="booking-price">$${currentBooking.price}/hr</p>
+            <p class="booking-price">₹${currentBooking.price}/hr</p>
         </div>
     `;
     
@@ -201,7 +201,7 @@ function updateExtensionCost() {
     
     const duration = parseInt(extensionDuration.value);
     const cost = duration * currentBooking.price;
-    extensionCost.textContent = `$${cost.toFixed(2)}`;
+    extensionCost.textContent = `₹${cost.toFixed(2)}`;
 }
 
 // Helper function to format date and time
