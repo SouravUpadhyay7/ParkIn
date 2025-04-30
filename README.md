@@ -129,7 +129,7 @@ ParkIn uses a layered architecture comprising:
 
 ## ⚠️ Disclaimer
 
-**IMPORTANT:** For presentation and demonstration purposes, the current version of this project uses only HTML, CSS, and JavaScript. The fully functional mobile application with React Native and complete backend implementation is currently under development.
+**IMPORTANT:** For presentation and demonstration purposes, the current version of this project uses only HTML, CSS, Python and JavaScript. The fully functional mobile application with React Native and complete backend implementation is currently under development.
 
 ## 🛠️ Installation
 
