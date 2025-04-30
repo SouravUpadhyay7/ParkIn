@@ -120,7 +120,7 @@ ParkIn uses a layered architecture comprising:
 | Name | Roll | LinkedIn |
 |------|------|----------|
 | **Abhinav** (Team Lead) | 12130823001 | [LinkedIn](https://www.linkedin.com/in/abhinavbit/) |
-| **Sourav Upadhyay** | 12130823044 | [LinkedIn](www.linkedin.com/in/sourav-upadhyay-00a975276) |
+| **Sourav Upadhyay** | 12130823044 | [LinkedIn](https://www.linkedin.com/in/sourav-upadhyay-00a975276/) |
 | **Nishi Kumari** | 12130824047 | [LinkedIn](https://www.linkedin.com/in/nishi-kumari-184704277/) |
 | **S.K. Arin** | 12130823043 | [LinkedIn](https://www.linkedin.com/in/sk-arin-1a7b37278/) |
 
