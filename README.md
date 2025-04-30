@@ -1,7 +1,7 @@
 # 🚗 ParkIn: An AI-Powered Smart Parking System
 
 <div align="center">
-  <img src="https://via.placeholder.com/300" alt="ParkIn Logo" width="300"/>
+  <img src="https://github.com/SouravUpadhyay7/ParkingApp/blob/main/Images/logo.jpg" alt="ParkIn Logo" width="300"/>
   <br>
   <em>A Project by the Department of Computer Science and Engineering (Artificial Intelligence and Machine Learning)</em>
 </div>
@@ -108,20 +108,21 @@ ParkIn uses a layered architecture comprising:
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="https://via.placeholder.com/200" alt="Login Screen" width="200"/>
-  <img src="https://via.placeholder.com/200" alt="Map View" width="200"/>
-  <img src="https://via.placeholder.com/200" alt="Booking Screen" width="200"/>
-  <img src="https://via.placeholder.com/200" alt="User Profile" width="200"/>
+  <img src="https://github.com/SouravUpadhyay7/ParkingApp/blob/main/Images/home%20page.png" alt="Login Screen" width="500"/>
+  <img src="https://github.com/SouravUpadhyay7/ParkingApp/blob/main/Images/map%20view.png" alt="Map View" width="500"/>
+  <img src="https://github.com/SouravUpadhyay7/ParkingApp/blob/main/Images/list%20parking%20-%20customers.png" alt="Booking Screen" width="500"/>
+  <img src="https://github.com/SouravUpadhyay7/ParkingApp/blob/main/Images/parking%20list%20-%20user.png" alt = "user parking" width="500"/>
+  <img src="https://github.com/SouravUpadhyay7/ParkingApp/blob/main/Images/user%20profile.png" alt = "user Profile" width="500"/>
 </div>
 
 ## 👥 Team Members
 
 | Name | Roll | LinkedIn |
 |------|------|----------|
-| **Abhinav** (Team Lead) | CSE/AIML/2023/001 | [LinkedIn](https://www.linkedin.com/in/abhinav-cse-aiml) |
-| **Sourav Upadhyay** | CSE/AIML/2023/002 | [LinkedIn](https://www.linkedin.com/in/sourav-upadhyay) |
-| **Nishi Kumari** | CSE/AIML/2023/003 | [LinkedIn](https://www.linkedin.com/in/nishi-kumari) |
-| **S.K. Arin** | CSE/AIML/2023/004 | [LinkedIn](https://www.linkedin.com/in/sk-arin) |
+| **Abhinav** (Team Lead) | 12130823001 | [LinkedIn](https://www.linkedin.com/in/abhinavbit/) |
+| **Sourav Upadhyay** | 12130823044 | [LinkedIn](www.linkedin.com/in/sourav-upadhyay-00a975276) |
+| **Nishi Kumari** | 12130824047 | [LinkedIn](https://www.linkedin.com/in/nishi-kumari-184704277/) |
+| **S.K. Arin** | 12130823043 | [LinkedIn](https://www.linkedin.com/in/sk-arin-1a7b37278/) |
 
 *Department of Computer Science and Engineering (AI & ML)*  
 *Bengal Institute of Technology, Kolkata, West Bengal, India*
