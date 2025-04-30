@@ -1,105 +1,202 @@
-# ParkEase: A Smart Parking Solution for Urban Spaces
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-
-## 📋 Project Overview
-
-**ParkEase** is a decentralized vehicle parking platform designed to provide an easy, efficient, and smart way to find and book urban parking spaces. This prototype caters to both space owners and drivers, providing features that make parking management simple and user-friendly.
-
-> This project was developed as a learning exercise for the 4th Semester Sessional Examination of Bachelor of Technology in Computer Science & Engineering with Specialization on AI & ML.
-
-## ✨ Key Features
-
-### Multi-page Structure with Navigation
-- Home page
-- Search Parking functionality
-- My Bookings section
-- User Profile area
-
-### Responsive Design
-- Sticky navigation bar for desktop/tablet screens
-- Responsive hamburger menu for mobile users
-- Fully adaptive layout (Mobile, Tablet, Desktop)
-
-### For Space Owners
-- **List parking spaces** (dummy form + upload image UI)
-- **Set hourly pricing**, select facilities (CCTV, EV charging, etc.)
-- **Mark parking space location** on simulated map
-- **Manage bookings** and view offers
-
-### For Drivers/Customers
-- **Search and browse** nearby parking spaces
-- **View detailed information** (mock ratings, facilities, images)
-- **Send booking requests** and proposals
-- **Book slots** using a simple calendar UI
-- **Rate parking spaces** after usage
-
-### Additional Features
-- Light/Dark theme toggle for user preference
-- Well-commented HTML, CSS, and JavaScript files for clarity
-
-> **Note:** This project is a prototype developed for academic purposes only. No real-time backend services, maps APIs, or databases were used.
-
-## 🛠️ Technologies Used
-
-- **HTML5** - Structure
-- **CSS3** - Styling & Animations
-- **Vanilla JavaScript** - Interactivity (No frameworks)
-
-## 👨‍💻 Team Members
-
-| Name | Roll No | Social Links |
-|------|---------|-------------|
-| Abhinav | 12130823001 | [GitHub](#) • [LinkedIn](#) • [X/Twitter](#) |
-| Sourav Upadhyay | 12130823044 | [GitHub](#) • [LinkedIn](#) • [X/Twitter](#) |
-| SK Arin | 12130823043 | [GitHub](#) • [LinkedIn](#) • [X/Twitter](#) |
-| Nishi Kumari | 12130824047 | [GitHub](#) • [LinkedIn](#) • [X/Twitter](#) |
-
-## 👩‍🏫 Project Guides
-
-| Faculty | Department | Social Links |
-|---------|------------|-------------|
-| Prof. Kuntala Das | Dept. of CS&E (AI & ML) | [LinkedIn](#) • [X/Twitter](#) |
-| Dr. Arpita Chakraborty | Dept. of CS&E (AI & ML) | [LinkedIn](#) • [X/Twitter](#) |
-
-## 🏫 Institution
-
-**Bengal Institute of Technology**  
-Department of Computer Science & Engineering (AI & ML)  
-An AICTE approved and MAKAUT affiliated  
-Kolkata, West Bengal
-
-## 📷 Screenshot Gallery
-
-
+# 🚗 ParkIn: An AI-Powered Smart Parking System
 
 <div align="center">
-  <img src="/api/placeholder/800/450" alt="ParkEase Homepage" width="800"/>
-  <p><em>Home page with key features</em></p>
-  
-  <img src="/api/placeholder/800/450" alt="Parking Search" width="800"/>
-  <p><em>Search interface for finding available spaces</em></p>
+  <img src="https://via.placeholder.com/300" alt="ParkIn Logo" width="300"/>
+  <br>
+  <em>A Project by the Department of Computer Science and Engineering (Artificial Intelligence and Machine Learning)</em>
 </div>
 
-## 🚀 Getting Started
+## 📋 Table of Contents
+- [Introduction](#introduction)
+- [Problem Statement](#problem-statement)
+- [Features](#features)
+- [System Architecture](#system-architecture)
+- [Implementation](#implementation)
+- [Advantages](#advantages)
+- [Screenshots](#screenshots)
+- [Team Members](#team-members)
+- [Installation](#installation)
+- [References](#references)
 
-1. Clone this repository
+## 🚀 Introduction
+
+ParkIn is a cross-platform smart parking application that enables users to find, book, and manage parking spaces in real-time while allowing property owners to monetize their vacant spaces. The application is designed with intelligent features such as AI-driven recommendations, eco-friendly UI, and future integration with IoT sensors and ANPR systems.
+
+With increasing urbanization, parking space management has become a growing concern in smart cities. This project addresses the pressing need for a scalable, intelligent, and user-friendly smart parking system, aligning with modern urban planning goals and sustainability initiatives.
+
+## ❓ Problem Statement
+
+Parking congestion is a major urban challenge that leads to increased traffic, fuel consumption, and frustration. The traditional method of searching for parking manually is inefficient and time-consuming.
+
+**Key Challenges:**
+- Lack of real-time parking space visibility
+- Wastage of fuel and time due to manual search
+- Inefficient monetization of private parking spaces
+- No centralized platform for smart parking solutions
+
+## ✨ Features
+
+### For Users
+- **Real-time parking search and booking**
+- **AI-based parking recommendations**
+- **Booking history and favorites**
+- **Dark/light theme support**
+- **Profile management**
+
+### For Parking Space Owners
+- **List available parking spaces**
+- **View and manage bookings**
+- **Track income and space usage**
+
+### For Administrators
+- **View all registered users**
+- **Manage listings and moderate reported content**
+- **Analytics and report generation** (future scope)
+
+## 🏗️ System Architecture
+
+ParkIn uses a layered architecture comprising:
+
+- **Presentation Layer:** React Native UI components
+- **Application Layer:** Business logic, API handling
+- **Data Layer:** Firebase for authentication, MongoDB for storage
+- **AI Layer:** Recommender system (Python Flask API)
+
+<div align="center">
+  <img src="https://via.placeholder.com/600x300" alt="ParkIn Architecture" width="600"/>
+</div>
+
+## 💻 Implementation
+
+- Developed using **React Native** and **TailwindCSS** for modern UI
+- **Firebase authentication** used for user management
+- Mock data simulates booking, history, and favorites
+- Modular code with future-proof architecture for IoT and AI integration
+
+## 📱 Requirements
+
+### Functional Requirements
+- User registration and authentication
+- Real-time parking search and booking
+- Parking listing by owners
+- AI-based recommendation engine
+- User profile and booking history
+- Dark/light theme support
+
+### Non-Functional Requirements
+- High performance
+- User-friendly UI/UX
+- Secure authentication and data storage
+- Scalability
+- Platform independence
+
+### Hardware and Software Requirements
+- Android/iOS device
+- Firebase / MongoDB / Node.js Backend
+- React Native frontend framework
+- Internet connectivity
+
+## 📈 Advantages
+
+- **Cost Effective:** Minimal infrastructure needed; reuses user GPS and maps
+- **Environment Friendly:** Reduces CO₂ emissions by optimizing parking search time
+- **Highly Available:** Available on both Android and iOS via cloud sync
+- **Easy to Use:** User-centric interface inspired by Zomato/Ola
+- **Highly Scalable:** Cloud-ready and supports microservices for AI/IoT modules
+- **Robust:** Secure authentication, fault-tolerant codebase
+
+## 📸 Screenshots
+
+<div align="center">
+  <img src="https://via.placeholder.com/200" alt="Login Screen" width="200"/>
+  <img src="https://via.placeholder.com/200" alt="Map View" width="200"/>
+  <img src="https://via.placeholder.com/200" alt="Booking Screen" width="200"/>
+  <img src="https://via.placeholder.com/200" alt="User Profile" width="200"/>
+</div>
+
+## 👥 Team Members
+
+| Name | Roll | LinkedIn |
+|------|------|----------|
+| **Abhinav** (Team Lead) | CSE/AIML/2023/001 | [LinkedIn](https://www.linkedin.com/in/abhinav-cse-aiml) |
+| **Sourav Upadhyay** | CSE/AIML/2023/002 | [LinkedIn](https://www.linkedin.com/in/sourav-upadhyay) |
+| **Nishi Kumari** | CSE/AIML/2023/003 | [LinkedIn](https://www.linkedin.com/in/nishi-kumari) |
+| **S.K. Arin** | CSE/AIML/2023/004 | [LinkedIn](https://www.linkedin.com/in/sk-arin) |
+
+*Department of Computer Science and Engineering (AI & ML)*  
+*Bengal Institute of Technology, Kolkata, West Bengal, India*
+
+## ⚠️ Disclaimer
+
+**IMPORTANT:** For presentation and demonstration purposes, the current version of this project uses only HTML, CSS, and JavaScript. The fully functional mobile application with React Native and complete backend implementation is currently under development.
+
+## 🛠️ Installation
+
 ```bash
-git clone https://github.com/yourusername/parkease.git
+# Clone the repository
+https://github.com/SouravUpadhyay7/ParkingApp
+
+# Navigate to the project directory
+cd parkin
+
+# For the demo version
+# Simply open index.html in your browser
+
+# For future full implementation
+# npm install
+# npm start
 ```
 
-2. Open `index.html` in your browser to explore the application
+## 📚 References
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+1. Z. Pala and N. Inanc, "Smart parking applications using RFID technology," in 1st Annual Eurasia RFID Conference, September 2007.
+2. Wand and W. He, "A reservation based smart parking system," in 1st Int'l Workshop on Cyber-Physical Networking Systems, April 2011.
+3. N.H.H.M. Hanif, M.H. Badiozaman and H. Daud, "Smart parking reservation system using short message services (SMS)," in 2010 International Conference on Intelligent and Advanced Systems (ICIAS), June 2010.
+4. S. Lee, D. Lee, and A. Park, "Smart Parking System Using RFID and Wireless Sensor Network," in ICT Convergence, October 2012.
+5. H. Zhang and C. Lin, "Vehicle Parking Management using IoT and Cloud Computing," Journal of Advanced Transportation, 2018.
+6. SpotHero Official App – https://spothero.com
+7. Firebase Documentation – https://firebase.google.com/docs
+8. React Native Docs – https://reactnative.dev/docs/getting-started
+9. S. Mathur, T. Jin, N. Kasturirangan, W. Xue, M. Gruteser and W. Trappe, "Parknet: drive by sensing of road-side parking statistics" in Proceedings of the Eighth International Conference on Mobile Systems, applications and services (MobiSys‟10), ACM New York, June 2010
+10. M. H. Gharavol, M. Pourtakdoust, and M. Zamani, "A Cloud-Based Parking Service System," in International Journal of Smart Grid and Clean Energy, 2015.
 
 ---
 
-
 <div align="center">
-  <p>Developed as part of academic curriculum at Bengal Institute of Technology, 2025</p>
+  <p>© 2025 ParkIn</p>
+  <p>Made with ❤️ by CSE (AI & ML) Students at Bengal Institute of Technology</p>
+  
+  <br>
+  
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT">
+  </a>
 </div>
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+```
+MIT License
+
+Copyright (c) 2025 ParkIn
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
