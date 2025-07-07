@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-color: #f0f0f0;
+}
+
+h1, h2 {
+  color: #222;
+}
+
+form {
+  margin-bottom: 30px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+#slots {
+  display: flex;
+  gap: 15px;
+}
+
+.slot {
+  padding: 20px;
+  background-color: white;
+  border: 2px solid #444;
+  border-radius: 8px;
+  text-align: center;
+  width: 120px;
+  font-weight: bold;
+}
+
+.booked {
+  background-color: #ffcccc;
+}
+
+.available {
+  background-color: #ccffcc;
+}

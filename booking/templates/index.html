@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Parking Slot Booking</title>
+</head>
+<body>
+    <h1>Ground Floor Slots: {{ available }} left</h1>
+    {% if error %}
+        <p style="color:red;">{{ error }}</p>
+    {% endif %}
+
+    <form action="{{ url_for('book') }}" method="post">
+        <input type="text" name="name" placeholder="Your Name" required><br>
+        <input type="text" name="car_number" placeholder="Car Number" required><br>
+        <input type="datetime-local" name="in_time" required><br>
+        <input type="datetime-local" name="out_time" required><br>
+        <button type="submit">Book</button>
+    </form>
+</body>
+</html>

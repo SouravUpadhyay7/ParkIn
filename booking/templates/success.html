@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking Confirmed</title>
+    <style>
+        .card {
+            max-width: 400px;
+            margin: auto;
+            margin-top: 50px;
+            padding: 20px;
+            border-radius: 15px;
+            background-color: #f0f0f0;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            font-family: Arial, sans-serif;
+        }
+        h2 { text-align: center; }
+        .info { margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Booking Confirmed</h2>
+        <div class="info"><strong>Name:</strong> {{ name }}</div>
+        <div class="info"><strong>Car Number:</strong> {{ car }}</div>
+        <div class="info"><strong>Check-in:</strong> {{ checkin }}</div>
+        <div class="info"><strong>Check-out:</strong> {{ checkout }}</div>
+        <div class="info"><strong>Slot:</strong> {{ slot }}</div>
+        <div class="info"><strong>Floor:</strong> Ground Floor</div>
+    </div>
+</body>
+</html>
