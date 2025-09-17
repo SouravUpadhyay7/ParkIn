@@ -1,5 +1,14 @@
 # 🚗 ParkIn: An AI-Powered Smart Parking System
 
+
+# 🏆 Project Achievements
+
+✨ This project proudly secured **1st Place** 🥇 and **2nd Place** 🥈  
+at the **BITS 2 BYTES Tech Fest** of **Bengal Institute of Technology, Kolkata** 🎉  
+
+🎓 Celebrating **25 Glorious Years** of excellence at BIT,  
+this achievement marks a milestone for innovation, teamwork, and dedication 🚀
+
 <div align="center">
   <img src="https://github.com/SouravUpadhyay7/ParkingApp/blob/main/Images/logo.jpg" alt="ParkIn Logo" width="300"/>
   <br>
